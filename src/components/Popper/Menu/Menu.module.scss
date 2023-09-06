@@ -1,0 +1,46 @@
+.menu-list {
+  width: 223px;
+
+  .menu-item {
+    margin-left: 0px;
+    width: 100%;
+    padding: 10.65px 16px;
+    line-height: 18px;
+
+    &.separate {
+      border-top: 1px solid rgba(22, 24, 35, 0.12);
+    }
+
+    &:hover {
+      background-color: rgba(22, 24, 35, 0.03);
+      border-radius: 0;
+    }
+  }
+}
+
+.menu-popper {
+  padding-bottom: 8px;
+}
+
+//HeaderMenu
+.header {
+  position: relative;
+  height: 50px;
+  margin-top: -8px;
+  cursor: pointer;
+}
+.header-btn {
+  height: 50px;
+  width: 50px;
+  font-size: calc(var(--icon-size) + 4px);
+  background-color: transparent;
+  cursor: pointer;
+}
+.header-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 600;
+  font-size: 18px;
+}
