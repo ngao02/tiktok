@@ -1,0 +1,141 @@
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 692px;
+  width: unset;
+  height: unset;
+  position: relative;
+  transition-property: margin;
+  transition-duration: 0.3s;
+  margin-bottom: 0px;
+  padding: 20px 0;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    transform: scaleY(0.5);
+    background: rgba(22, 24, 35, 0.2);
+  }
+}
+.avatar-img {
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.content-items {
+  margin-left: 12px;
+  width: 624px;
+  display: flex;
+  //   align-items: center;
+  flex-direction: column;
+  flex: 1 1 624px;
+}
+.infor {
+  margin-bottom: 15px;
+}
+.user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon-check {
+  font-size: 1.4rem;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #20d5ec;
+}
+.nickname {
+  font-family: Arial, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.028px;
+  display: inline-block;
+}
+.name {
+  font-family: Arial, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.093px;
+  display: inline-block;
+  line-height: 28px;
+}
+.btn-follow {
+  min-width: 96px;
+  //   display: inline-flex;
+  position: absolute;
+  right: 0;
+  top: 28px;
+}
+.content-bio {
+  font-size: 14px;
+  color: rgba(22, 24, 35, 1);
+}
+.music-bio {
+  display: flex;
+  color: rgba(22, 24, 35, 1);
+  align-items: center;
+}
+.icon-music {
+  margin-right: 3px;
+  font-size: 12px;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.videoo {
+  height: 307px;
+  width: 543px;
+  overflow: hidden;
+  border-radius: 12px;
+  object-fit: contain;
+}
+.icon-interact {
+  display: flex;
+  flex-direction: column;
+  width: 48px;
+  margin-left: 10px;
+}
+.btn-like,
+.btn-comment,
+.btn-view,
+.btn-share {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  align-items: center;
+}
+.bg-btn {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(22, 24, 35, 0.06);
+  margin-top: 8px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+}
+.btn {
+  width: 20px;
+  height: 20px;
+}
+.number {
+  color: rgba(22, 24, 35, 0.75);
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.161px;
+  text-align: center;
+}

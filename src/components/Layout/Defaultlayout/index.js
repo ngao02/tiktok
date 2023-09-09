@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind';
 import Header from '~/components/Layout/component/Header';
-import Siderbar from '~/components/Layout/component/Siderbar';
+import Siderbar from '~/components/Layout/component/Siderbar/Siderbar';
 import styles from './DefaultLayout.module.scss';
 
 const cx = classNames.bind(styles);
